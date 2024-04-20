@@ -1,3 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card {
+  @apply bg-white rounded-md overflow-hidden shadow-xl relative;
+}
+
+.budge {
+  @apply bg-tSecondary-100 text-tSecondary-200 text-xs uppercase font-bold rounded-full p-4 absolute top-0 ml-2 mt-2;
+}
